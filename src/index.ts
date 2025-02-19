@@ -1,6 +1,6 @@
 import express, { query } from 'express'
 import { PORT } from '../secrets';
-import rootRouter from '../routes';
+import rootRouter from './controllers/routes';
 import { PrismaClient } from '@prisma/client';
 
 const app = express()
